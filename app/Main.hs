@@ -14,3 +14,5 @@ main = do
     putStrLn $ toString $ dnf testFormula
     putStrLn $ toString $ cnfClauses testFormula
     putStrLn $ toString $ unitPropagation testClause (Pos "2")
+    putStrLn $ outputToString $ dpll (Clause [[]]) []
+    putStrLn $ outputToString $ dpll (cnfClauses testFormula) []
