@@ -1,0 +1,13 @@
+cradle:
+  cabal:
+    - path: "app/Main.hs"
+      component: "TheoremProvers:exe:TheoremProvers"
+
+    - path: "app/DPLL.hs"
+      component: "TheoremProvers:exe:TheoremProvers"
+
+    - path: "app/Symbols.hs"
+      component: "TheoremProvers:exe:TheoremProvers"
+
+    - path: "app/Rewrite.hs"
+      component: "TheoremProvers:exe:TheoremProvers"
